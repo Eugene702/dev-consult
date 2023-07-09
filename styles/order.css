@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.img{
+    height: 130vh;
+    overflow: hidden;
+    background-image: url('../assets/indonesia.jpg');
+    background-position: 60% 60%;
+}
+
+.form > .img, form{
+    width: 50%;
+}
+
+.form > form > h1{
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.form > form{
+    padding-left: 80px;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: #fff;
+}
